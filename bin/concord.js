@@ -44,7 +44,7 @@ console.log('Retrieving public IP');
         let publicV6 = await publicIp.v6();
         //if(peers.indexOf('http://' + publicV6 + ':' + (argv.port ? argv.port : '3001'))<0) peers.push('http://' + publicV6 + ':' + (argv.port ? argv.port : '3001'));
     }catch(error){
-        console.log('error getting ipv4');
+        console.log('error getting ipv6');
     }
 
     if (!argv.port || argv.port === '' || argv.port === 0) {
