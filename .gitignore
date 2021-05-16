@@ -9,3 +9,4 @@ data
 lockfile.lock
 Concord-Core-win32-x64
 Concord-Core-win32-x64.zip
+package-lock.json
